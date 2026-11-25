@@ -1,0 +1,472 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+ /* background: black;*/
+}
+/* nav {
+  Display: flex;
+  justify-content: center;
+  margin-left: 30px;
+  margin-right: 30px;
+} */
+header {
+    background: whitesmoke;
+    padding-bottom: 30px;
+}
+.navcontainer1 {
+  Display: flex;
+  justify-content: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.navcontainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1437px;
+}
+.boxlogo {
+  display: flex;
+}
+/*homebox*/
+.homebox {
+  display: flex;
+  width: 435px;
+}
+.globecontainer {
+  padding-top: 22px;
+}
+.everytingcontainer {
+  padding-top: 39px;
+  padding-left: 4px;
+  padding-right: 33px;
+}
+.homeBox {
+  padding-top: 21px;
+}
+.homeBox1 {
+  padding-top: 39px;
+  padding-left: 4px;
+  padding-right: 26px;
+}
+.servicesbox {
+  padding-top: 19px;
+}
+.servicesbox1 {
+  padding-top: 39px;
+  padding-left: 11px;
+  padding-right: 33px;
+}
+.experiencesbox {
+  padding-top: 24px;
+}
+.experiencesbox1 {
+  padding-top: 39px;
+  padding-left: 7px;
+}
+
+header .logo .airbnbklein {
+    display: none;
+}
+header .globe img {
+    width: 45px;
+}
+header .logo img {
+    width: 47px;
+    padding-top: 26px;
+}
+header img.global {
+    width: 30px;
+}
+header img.hamburgermenu {
+    width: 26px;
+}
+header img.pushbell {
+    width: 51px;
+}
+header img.luchtballon {
+    width: 33px;
+}
+header img.navhuis {
+    width: 49px;
+}
+
+/* navcenterbox */
+.navcenterbox {
+  display: flex;
+  padding-top: 33px;
+}
+.navcenterbox span {
+    font-weight: bold;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+.navcenterbox .backgroundglobal{
+    background: green;
+    position: relative;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    top: -39px;
+    right: 4px;
+    z-index: -10000;
+}
+.navcenterbox .hamburgermenu {
+    margin-left: 6px;
+}
+.navcenterbox .backgroundhamburgermenu {
+    background: green;
+    position: relative;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    top: -36px;
+    right: 0px;
+    z-index: -10000;
+}
+.zoekbalkcontainer {
+  display: none;
+}
+.zoekbalkcontainer1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 1px solid darkgrey;
+  border-radius: 27px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  box-shadow: 0 0 15px darkgray;
+  margin-top: 10px;
+}
+.navcontainer2 {
+    display: flex;
+    justify-content: center;
+    height: 75px;
+    margin: 0px 23px 0px 24px;
+}
+.zoekbalkcontainer2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 756px;
+  border: 1px solid darkgrey;
+  border-radius: 27px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  box-shadow: 0 0 10px darkgray;
+  margin-top: 10px;
+  background: white;
+  
+}
+.zoekbalkcontainer2 input#fname {
+    border: none;
+    color: grey;
+}
+.waarcontainer {
+  display:flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+div#waarcontainer2 {
+    border-left: solid 1px black;
+    padding-left: 25px;
+}
+div#waarcontainer3 {
+    border-left: solid 1px black;
+    padding-left: 25px;
+}
+.waarinfo {
+  color: grey;
+}
+
+span.vergrootglas {
+  width: 41px;
+  height: 41px;
+  padding-left: 8px;
+  padding-top: 8px;
+  border-radius: 50%;
+  background: yellow;
+}
+.containerbuttonsresponsive {
+    display: flex;
+    padding-top: 21px;
+}
+.containerbuttonsresponsive img.globeimg {
+    width: 22px;
+}
+.containerbuttonsresponsive span.cbrAlles {
+    padding-top: 6px;
+    padding-left: 4px;
+}
+#containerbuttons {
+    border: 1px solid darkgrey;
+    border-radius: 23px;
+    padding: 6px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-right: 7px;
+    box-shadow: 0 0 10px darkgray;
+    /* background-image: linear-gradient(to bottom, darkgrey 2%, white 33%); */
+    display: none;
+}
+.mainContainer {
+  display: flex;
+  justify-content: center;
+}
+.mainContainer .imagesection1 {
+    flex-direction: row;
+    display: flex;
+}
+.mainContainer .imagesectionrow {
+    display: flex;
+    flex-wrap: wrap;
+}
+.mainContainer .mainRowcontainer {
+    max-width: 1362px;
+    width: 1362px;
+    margin-left: 34px;
+}
+.topthing i.fa-solid.fa-chevron-left, .topthing i.fa-solid.fa-chevron-right {
+    position: relative;
+}
+.topthing i.fa-solid.fa-chevron-left {
+    margin-right: 13px;
+}
+span .fa-solid, .fas {
+    font-weight: 900;
+}
+.containerpijltje {
+    font-weight: 900;
+    background: lightgrey;
+    border-radius: 50%;
+    padding: 12px;
+    margin-left: 10px;
+    position: absolute;
+    left: -15px;
+    top: -5px;
+    z-index: -10;
+}
+.containerpijltje1 {
+    font-weight: 900;
+    background: lightgrey;
+    border-radius: 50%;
+    padding: 12px;
+    margin-left: 10px;
+    position: absolute;
+    top: -4px;
+    left: -17px;
+    z-index:-10;
+}
+.containerpijltje11 {
+    font-weight: 900;
+    background: lightgrey;
+    border-radius: 50%;
+    padding: 12px;
+    margin-left: 10px;
+    position: absolute;
+    left: -16px;
+    top: -4px;
+    z-index: -10;
+}
+.mainContainer div#topthing1 {
+    padding-top: 48px;
+}
+.topthing {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 53px;
+    padding-top: 30px;
+}
+.topthingleft {
+    justify-items: left;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.topthingleft i.fa-solid.fa-arrow-right {
+    font-size: 14px;
+    position: relative;
+    top: -3px;
+}
+.topthingright {
+    justify-items: right;
+    padding-right: 43px;
+    width: 80px;
+    padding-top: 6px;
+}
+.imagesectionrow img {
+    max-width: 500px;
+    width: 120px;
+    height: 112px;
+    border-radius: 21px;
+}
+div#imagesectionrow1 img
+ {
+    height: 153px;
+    width: 153px;
+}
+.imagesectionrow .imagesection2column {
+    padding-right: 14px;
+    padding-bottom: 24px;
+}
+.imagesectionrow .imagesection1column {
+    padding-right: 10px;
+    padding-bottom: 24px;
+}
+.mainRowcontainer .imagesectionrow {
+    padding-top: 22px;
+}
+.imagesectionrow .image2 {
+    padding-top: 4px;
+}
+.paddingbottom {
+  padding-bottom: 50px;
+}
+<!-------- foooter ---------------------!>
+footer .uitstapjes .categorieën {
+  display: flex;
+  justify-content: flex-start;
+}
+footer .uitstapjes {
+  padding-left: 48px;
+  padding-top: 42px;
+  padding-right: 48px;
+  padding-bottom: 92px;
+}
+footer .uitstapjes .streep {
+  max-width: 1414px;
+  border-top: solid 1px lightgrey;
+  padding-top: 25px;
+}
+footer .extralinks .streep {
+  max-width: 1414px;
+  border-top: solid 1px lightgrey;
+  display:none;
+}
+footer .uitstapjes .plekken, footer .uitstapjes .plekken1, footer .uitstapjes .plekken2 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1276px;
+}
+footer .uitstapjes .plekken .kolom, footer .uitstapjes .plekken1 .kolom, footer .uitstapjes .plekken2 .kolom {
+  display: flex;
+  flex-direction: column;
+}
+footer .uitstapjes .plekken .kolom span, footer .uitstapjes .plekken1 .kolom span, footer .uitstapjes .plekken2 .kolom span {
+  padding-bottom: 23px;
+}
+.topthingleft span.plekken {
+    padding-right: 11px;
+}
+footer .uitstapjes .plekken1, footer .uitstapjes .plekken2 {
+  display: none;
+}
+footer .uitstapjes p {
+  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+footer .uitstapjes .categorieën span {
+  padding-right: 29px;
+}
+footer .uitstapjes .categorieën {
+  padding-bottom: 13px;
+}
+footer {
+  background: whitesmoke;
+}
+footer .extralinks {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1276px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+footer .extralinks .kolom {
+  display: flex;
+  flex-direction: column;
+}
+footer .extralinks .kolom span {
+  padding-bottom: 23px;
+}
+footer .bold {
+  font-weight: bold;
+}
+@media (max-width: 1340px){
+
+}
+@media (max-width: 1180px){
+  .navcenterbox span {
+    display: none;
+  }
+  .homebox {
+    width: 545px;
+  }
+  footer .uitstapjes .plekken {
+    display:none;
+  }
+  footer .uitstapjes .plekken1 {
+    display: flex;
+  }
+}
+@media (max-width: 924px) {
+  header .logo .airbnbklein {
+    display: block;
+  }
+  header .logo img {
+    width: 37px;
+  }
+  header .logo .airbnbgroot {
+    display: none;
+  }
+  footer .uitstapjes .plekken, footer .uitstapjes .plekken1 {
+    display:none;
+  }
+  footer .uitstapjes .plekken2 {
+    display: flex;
+  }
+}
+@media (max-width: 812px) {
+  .boxlogo,.homebox,.navcenterbox {
+    display: none;
+  }
+  .zoekbalkcontainer {
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border: 1px solid darkgrey;
+        border-radius: 27px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        box-shadow: 0 0 10px darkgray;
+        margin-top: 10px;
+        background: white;
+  }
+}
+@media (max-width: 743px){
+  .navcontainer2 {
+      height: auto;
+  }
+  .zoekbalkcontainer2 {
+      display: none;
+  }
+  #containerbuttons {
+      display: flex;
+  }
+  footer .extralinks {
+    flex-direction: column;
+  }
+  footer .extralinks .streep {
+  display:flex;
+  }
+}
